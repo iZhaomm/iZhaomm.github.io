@@ -58,9 +58,9 @@
 
   $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\"></pre>\n  <div style = 'position: fixed;left: 30px;bottom: 10px;'>\n\n  </div>");
 
-  commentTime = 1;
+  commentTime = 75;
 
-  codeTime = 1;
+  codeTime = 20;
 
   $(document).on('ready page:load', function() {
     return $('#skipAnimation').click(function() {
